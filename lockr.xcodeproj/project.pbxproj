@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DBC647A1F89198800820AF1 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBC64791F89198800820AF1 /* mainViewController.swift */; };
+		1DBC647E1F8924EA00820AF1 /* learnMoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBC647C1F8924EA00820AF1 /* learnMoreCollectionViewCell.swift */; };
+		1DBC647F1F8924EA00820AF1 /* learnMoreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DBC647D1F8924EA00820AF1 /* learnMoreCollectionViewCell.xib */; };
+		1DBC64811F89264A00820AF1 /* learnMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBC64801F89264A00820AF1 /* learnMoreViewController.swift */; };
 		1DF388331F89126200609A3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF388321F89126200609A3F /* AppDelegate.swift */; };
-		1DF388351F89126200609A3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF388341F89126200609A3F /* ViewController.swift */; };
 		1DF388381F89126200609A3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF388361F89126200609A3F /* Main.storyboard */; };
 		1DF3883B1F89126200609A3F /* lockr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DF388391F89126200609A3F /* lockr.xcdatamodeld */; };
 		1DF3883D1F89126200609A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF3883C1F89126200609A3F /* Assets.xcassets */; };
@@ -38,9 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DBC64791F89198800820AF1 /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		1DBC647C1F8924EA00820AF1 /* learnMoreCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = learnMoreCollectionViewCell.swift; sourceTree = "<group>"; };
+		1DBC647D1F8924EA00820AF1 /* learnMoreCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = learnMoreCollectionViewCell.xib; sourceTree = "<group>"; };
+		1DBC64801F89264A00820AF1 /* learnMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = learnMoreViewController.swift; sourceTree = "<group>"; };
 		1DF3882F1F89126200609A3F /* lockr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lockr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF388321F89126200609A3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1DF388341F89126200609A3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1DF388371F89126200609A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DF3883A1F89126200609A3F /* lockr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lockr.xcdatamodel; sourceTree = "<group>"; };
 		1DF3883C1F89126200609A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DBC647B1F8924B600820AF1 /* collectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				1DBC647C1F8924EA00820AF1 /* learnMoreCollectionViewCell.swift */,
+				1DBC647D1F8924EA00820AF1 /* learnMoreCollectionViewCell.xib */,
+			);
+			name = collectionCell;
+			sourceTree = "<group>";
+		};
 		1DF388261F89126200609A3F = {
 			isa = PBXGroup;
 			children = (
@@ -117,7 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				1DF388321F89126200609A3F /* AppDelegate.swift */,
-				1DF388341F89126200609A3F /* ViewController.swift */,
+				1DBC64791F89198800820AF1 /* mainViewController.swift */,
+				1DBC64801F89264A00820AF1 /* learnMoreViewController.swift */,
+				1DBC647B1F8924B600820AF1 /* collectionCell */,
 				1DF388361F89126200609A3F /* Main.storyboard */,
 				1DF3883C1F89126200609A3F /* Assets.xcassets */,
 				1DF3883E1F89126200609A3F /* LaunchScreen.storyboard */,
@@ -284,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DBC647F1F8924EA00820AF1 /* learnMoreCollectionViewCell.xib in Resources */,
 				1DF388401F89126200609A3F /* LaunchScreen.storyboard in Resources */,
 				1DF3883D1F89126200609A3F /* Assets.xcassets in Resources */,
 				1DF388381F89126200609A3F /* Main.storyboard in Resources */,
@@ -376,9 +394,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-lockr/Pods-lockr-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -458,9 +479,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DF388351F89126200609A3F /* ViewController.swift in Sources */,
+				1DBC647E1F8924EA00820AF1 /* learnMoreCollectionViewCell.swift in Sources */,
 				1DF3883B1F89126200609A3F /* lockr.xcdatamodeld in Sources */,
 				1DF388331F89126200609A3F /* AppDelegate.swift in Sources */,
+				1DBC647A1F89198800820AF1 /* mainViewController.swift in Sources */,
+				1DBC64811F89264A00820AF1 /* learnMoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,6 +736,7 @@
 				1DF3885C1F89126200609A3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DF3885D1F89126200609A3F /* Build configuration list for PBXNativeTarget "lockrTests" */ = {
 			isa = XCConfigurationList;
@@ -721,6 +745,7 @@
 				1DF3885F1F89126200609A3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DF388601F89126200609A3F /* Build configuration list for PBXNativeTarget "lockrUITests" */ = {
 			isa = XCConfigurationList;
@@ -729,6 +754,7 @@
 				1DF388621F89126200609A3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
