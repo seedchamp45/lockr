@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5027CA0337E9EE50EDFCDD28F46A0904 /* Pods-lockrTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B897CD4E9EB23D265FF435BFF81F9EC /* Pods-lockrTests-dummy.m */; };
+		58572423D74878A3DA0EDF06E255B6D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9573217534B2A08D55AAF1B47EB52046 /* Pods-lockr-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B7969328E5C38EDA684E5A67D9AFFE2 /* Pods-lockr-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6B2D7370AE3CF415F0CA0DA8C705FBB /* Pods-lockrTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DCC4722A78DA2247ACB1DB888405AEE /* Pods-lockrTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE36108115B9872E372378F1EE15D4A3 /* Pods-lockrUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C452033828A2FB256188B82B22993772 /* Pods-lockrUITests-dummy.m */; };
+		CA7561256B7B6C87012D5CF6519D9FA7 /* Pods-lockrUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5236DA72C7905CDA6D81C5F1F360E9A6 /* Pods-lockrUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D65D1717BB31AB8E3CFC4499ED6AFC21 /* Pods-lockr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63901C21C8EF4723D6B1275F82169A61 /* Pods-lockr-dummy.m */; };
+		E637DF997C460142A3567713E4054BCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FEEBBE4280BD223A46FDE4D674508FC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06C7E8E618B025F08A89DDF4D063F016 /* Pods-lockrTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lockrTests-frameworks.sh"; sourceTree = "<group>"; };
+		0B8205592AB95B100A3AB701F13CE7CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12EE4EC2081228066E79CF52BE3180D6 /* Pods-lockrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lockrUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		14613A79DA2493791FC26192111E23E7 /* Pods-lockr-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lockr-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B897CD4E9EB23D265FF435BFF81F9EC /* Pods-lockrTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lockrTests-dummy.m"; sourceTree = "<group>"; };
+		1CCBEEBD4A0C798ECE11269EBCC5E0C0 /* Pods-lockrUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lockrUITests-frameworks.sh"; sourceTree = "<group>"; };
+		38BE2B641E09015D3B3499C53FC7B172 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4407D5F633069F9446A0C7B2EAEF86ED /* Pods_lockr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_lockr.framework; path = "Pods-lockr.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4592A995E6A163065D10233645CE60F6 /* Pods-lockr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lockr.release.xcconfig"; sourceTree = "<group>"; };
+		5236DA72C7905CDA6D81C5F1F360E9A6 /* Pods-lockrUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lockrUITests-umbrella.h"; sourceTree = "<group>"; };
+		5635B93952B1A8934557E8AD833E46D3 /* Pods-lockrTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lockrTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5924D2AE0F7CD87E34D2B83CDEA64DA2 /* Pods-lockr-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lockr-frameworks.sh"; sourceTree = "<group>"; };
+		6284FBDAAAB7E2009CFD549C0F0BC422 /* Pods-lockrUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lockrUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		63901C21C8EF4723D6B1275F82169A61 /* Pods-lockr-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lockr-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6ACC1C251FB86F8D3D94196BA0B8F6BD /* Pods_lockrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_lockrUITests.framework; path = "Pods-lockrUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B7969328E5C38EDA684E5A67D9AFFE2 /* Pods-lockr-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lockr-umbrella.h"; sourceTree = "<group>"; };
+		6B82A4160B516E3E895206DC18C6148A /* Pods-lockrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lockrUITests.release.xcconfig"; sourceTree = "<group>"; };
+		79DD0E3C9BAA60A553FF9F89EB34F8AD /* Pods-lockrUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-lockrUITests.modulemap"; sourceTree = "<group>"; };
+		7A8B365C54BBE5190D155F8EC275B13B /* Pods-lockrTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-lockrTests.modulemap"; sourceTree = "<group>"; };
+		7DCC4722A78DA2247ACB1DB888405AEE /* Pods-lockrTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lockrTests-umbrella.h"; sourceTree = "<group>"; };
+		8F29E4BFF8CC630944E3A20028B806E3 /* Pods-lockr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lockr.debug.xcconfig"; sourceTree = "<group>"; };
+		8FA04A15BBEAB487FD840DF3B4A173F9 /* Pods-lockr.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-lockr.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B38542B9DEE8498A1333766068DBB16 /* Pods-lockrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lockrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B58AFE273294162AF9AC54A0B95EED92 /* Pods_lockrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_lockrTests.framework; path = "Pods-lockrTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68F688866168182728C5FF65874715D /* Pods-lockrTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lockrTests-resources.sh"; sourceTree = "<group>"; };
+		C452033828A2FB256188B82B22993772 /* Pods-lockrUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lockrUITests-dummy.m"; sourceTree = "<group>"; };
+		CAF454B25377D505074D90CFB7928D5A /* Pods-lockr-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lockr-resources.sh"; sourceTree = "<group>"; };
+		D4DD7F7F5E51FF2CF6366F7917AF86E9 /* Pods-lockrUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lockrUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6B604BB4ED941A88B28D66EC00A9BFA /* Pods-lockrUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lockrUITests-resources.sh"; sourceTree = "<group>"; };
+		E2FFD0025DB0E075ECAC477D647BF04C /* Pods-lockr-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lockr-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5361B7C7117C1D6D9776540B34377F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74A6BDA69568CC6086AFED1A9E286DA /* Pods-lockrTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lockrTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBCA7788E98BA46CFF6CAD134D463F6F /* Pods-lockrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lockrTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83A744D620399A535E0A482429FA557C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58572423D74878A3DA0EDF06E255B6D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35A8A548945B9299F2FBB93BFA7005C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEBBE4280BD223A46FDE4D674508FC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED17A90A79230071F660F2644DF3FAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E637DF997C460142A3567713E4054BCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BE7FE493D49C58D2606293E584C8E34 /* Pods-lockrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38BE2B641E09015D3B3499C53FC7B172 /* Info.plist */,
+				79DD0E3C9BAA60A553FF9F89EB34F8AD /* Pods-lockrUITests.modulemap */,
+				D4DD7F7F5E51FF2CF6366F7917AF86E9 /* Pods-lockrUITests-acknowledgements.markdown */,
+				6284FBDAAAB7E2009CFD549C0F0BC422 /* Pods-lockrUITests-acknowledgements.plist */,
+				C452033828A2FB256188B82B22993772 /* Pods-lockrUITests-dummy.m */,
+				1CCBEEBD4A0C798ECE11269EBCC5E0C0 /* Pods-lockrUITests-frameworks.sh */,
+				D6B604BB4ED941A88B28D66EC00A9BFA /* Pods-lockrUITests-resources.sh */,
+				5236DA72C7905CDA6D81C5F1F360E9A6 /* Pods-lockrUITests-umbrella.h */,
+				12EE4EC2081228066E79CF52BE3180D6 /* Pods-lockrUITests.debug.xcconfig */,
+				6B82A4160B516E3E895206DC18C6148A /* Pods-lockrUITests.release.xcconfig */,
+			);
+			name = "Pods-lockrUITests";
+			path = "Target Support Files/Pods-lockrUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9728337BCEB608842383CF0B4D5516D9 /* Products */,
+				E559F268B56B909157713FAB8B573186 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9728337BCEB608842383CF0B4D5516D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4407D5F633069F9446A0C7B2EAEF86ED /* Pods_lockr.framework */,
+				B58AFE273294162AF9AC54A0B95EED92 /* Pods_lockrTests.framework */,
+				6ACC1C251FB86F8D3D94196BA0B8F6BD /* Pods_lockrUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		987049787C4B42CD468A259D8FAC4869 /* Pods-lockrTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B8205592AB95B100A3AB701F13CE7CE /* Info.plist */,
+				7A8B365C54BBE5190D155F8EC275B13B /* Pods-lockrTests.modulemap */,
+				5635B93952B1A8934557E8AD833E46D3 /* Pods-lockrTests-acknowledgements.markdown */,
+				F74A6BDA69568CC6086AFED1A9E286DA /* Pods-lockrTests-acknowledgements.plist */,
+				1B897CD4E9EB23D265FF435BFF81F9EC /* Pods-lockrTests-dummy.m */,
+				06C7E8E618B025F08A89DDF4D063F016 /* Pods-lockrTests-frameworks.sh */,
+				B68F688866168182728C5FF65874715D /* Pods-lockrTests-resources.sh */,
+				7DCC4722A78DA2247ACB1DB888405AEE /* Pods-lockrTests-umbrella.h */,
+				9B38542B9DEE8498A1333766068DBB16 /* Pods-lockrTests.debug.xcconfig */,
+				FBCA7788E98BA46CFF6CAD134D463F6F /* Pods-lockrTests.release.xcconfig */,
+			);
+			name = "Pods-lockrTests";
+			path = "Target Support Files/Pods-lockrTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E559F268B56B909157713FAB8B573186 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F48B1619848FB08BC4C61F6E1A041412 /* Pods-lockr */,
+				987049787C4B42CD468A259D8FAC4869 /* Pods-lockrTests */,
+				5BE7FE493D49C58D2606293E584C8E34 /* Pods-lockrUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F48B1619848FB08BC4C61F6E1A041412 /* Pods-lockr */ = {
+			isa = PBXGroup;
+			children = (
+				F5361B7C7117C1D6D9776540B34377F4 /* Info.plist */,
+				8FA04A15BBEAB487FD840DF3B4A173F9 /* Pods-lockr.modulemap */,
+				E2FFD0025DB0E075ECAC477D647BF04C /* Pods-lockr-acknowledgements.markdown */,
+				14613A79DA2493791FC26192111E23E7 /* Pods-lockr-acknowledgements.plist */,
+				63901C21C8EF4723D6B1275F82169A61 /* Pods-lockr-dummy.m */,
+				5924D2AE0F7CD87E34D2B83CDEA64DA2 /* Pods-lockr-frameworks.sh */,
+				CAF454B25377D505074D90CFB7928D5A /* Pods-lockr-resources.sh */,
+				6B7969328E5C38EDA684E5A67D9AFFE2 /* Pods-lockr-umbrella.h */,
+				8F29E4BFF8CC630944E3A20028B806E3 /* Pods-lockr.debug.xcconfig */,
+				4592A995E6A163065D10233645CE60F6 /* Pods-lockr.release.xcconfig */,
+			);
+			name = "Pods-lockr";
+			path = "Target Support Files/Pods-lockr";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6A560F7675B1C38909E110B2BA9E0749 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B2D7370AE3CF415F0CA0DA8C705FBB /* Pods-lockrTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFBF6973DF29C4E93216C45BDFC1561C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7561256B7B6C87012D5CF6519D9FA7 /* Pods-lockrUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B687C294C2B99A16D65803D7DC6C668B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9573217534B2A08D55AAF1B47EB52046 /* Pods-lockr-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6C95ACF0129E03DBB4F91726B24F667D /* Pods-lockrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD322179B384A6D8F67CCD92AE0D292 /* Build configuration list for PBXNativeTarget "Pods-lockrTests" */;
+			buildPhases = (
+				3FACD709A933CBCADDA0B7453B3AF4B6 /* Sources */,
+				83A744D620399A535E0A482429FA557C /* Frameworks */,
+				6A560F7675B1C38909E110B2BA9E0749 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-lockrTests";
+			productName = "Pods-lockrTests";
+			productReference = B58AFE273294162AF9AC54A0B95EED92 /* Pods_lockrTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90FD711E81A77E5EABCD9C1C0642F487 /* Pods-lockrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CE31603A1DF9AF4229EA5BFDB85049 /* Build configuration list for PBXNativeTarget "Pods-lockrUITests" */;
+			buildPhases = (
+				1897453502C6F776EEC810286BC055AB /* Sources */,
+				B35A8A548945B9299F2FBB93BFA7005C /* Frameworks */,
+				AFBF6973DF29C4E93216C45BDFC1561C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-lockrUITests";
+			productName = "Pods-lockrUITests";
+			productReference = 6ACC1C251FB86F8D3D94196BA0B8F6BD /* Pods_lockrUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBA3091FA139EB313DC9F845CB30A08D /* Pods-lockr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B03A469A46A3E8AF2FA346BECDE2A6B /* Build configuration list for PBXNativeTarget "Pods-lockr" */;
+			buildPhases = (
+				1AF20F34CE5618ABC371DF28FA87C151 /* Sources */,
+				ED17A90A79230071F660F2644DF3FAED /* Frameworks */,
+				B687C294C2B99A16D65803D7DC6C668B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-lockr";
+			productName = "Pods-lockr";
+			productReference = 4407D5F633069F9446A0C7B2EAEF86ED /* Pods_lockr.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9728337BCEB608842383CF0B4D5516D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBA3091FA139EB313DC9F845CB30A08D /* Pods-lockr */,
+				6C95ACF0129E03DBB4F91726B24F667D /* Pods-lockrTests */,
+				90FD711E81A77E5EABCD9C1C0642F487 /* Pods-lockrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1897453502C6F776EEC810286BC055AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE36108115B9872E372378F1EE15D4A3 /* Pods-lockrUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF20F34CE5618ABC371DF28FA87C151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65D1717BB31AB8E3CFC4499ED6AFC21 /* Pods-lockr-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FACD709A933CBCADDA0B7453B3AF4B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5027CA0337E9EE50EDFCDD28F46A0904 /* Pods-lockrTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03E68FBDC308858BCFCBEBCC219EF0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B38542B9DEE8498A1333766068DBB16 /* Pods-lockrTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-lockrTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-lockrTests/Pods-lockrTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_lockrTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		118A39AF4F5F79370F0EB9AABC937AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F29E4BFF8CC630944E3A20028B806E3 /* Pods-lockr.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-lockr/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-lockr/Pods-lockr.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_lockr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		14588AD8AA1ABBCBD5795AD4D8CB8132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBCA7788E98BA46CFF6CAD134D463F6F /* Pods-lockrTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-lockrTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-lockrTests/Pods-lockrTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_lockrTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CDEADB5FF0A75B4A913D94AD52A5623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B82A4160B516E3E895206DC18C6148A /* Pods-lockrUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-lockrUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-lockrUITests/Pods-lockrUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_lockrUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E1CC54461F43F05AF6A64B19E5642E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12EE4EC2081228066E79CF52BE3180D6 /* Pods-lockrUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-lockrUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-lockrUITests/Pods-lockrUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_lockrUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5100F6C3DB0AA8EAE199D00CF3F1182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4592A995E6A163065D10233645CE60F6 /* Pods-lockr.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-lockr/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-lockr/Pods-lockr.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_lockr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BD322179B384A6D8F67CCD92AE0D292 /* Build configuration list for PBXNativeTarget "Pods-lockrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E68FBDC308858BCFCBEBCC219EF0B7 /* Debug */,
+				14588AD8AA1ABBCBD5795AD4D8CB8132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B03A469A46A3E8AF2FA346BECDE2A6B /* Build configuration list for PBXNativeTarget "Pods-lockr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118A39AF4F5F79370F0EB9AABC937AA4 /* Debug */,
+				C5100F6C3DB0AA8EAE199D00CF3F1182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CE31603A1DF9AF4229EA5BFDB85049 /* Build configuration list for PBXNativeTarget "Pods-lockrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1CC54461F43F05AF6A64B19E5642E7 /* Debug */,
+				5CDEADB5FF0A75B4A913D94AD52A5623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

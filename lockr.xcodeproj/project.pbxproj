@@ -15,6 +15,9 @@
 		1DF388401F89126200609A3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF3883E1F89126200609A3F /* LaunchScreen.storyboard */; };
 		1DF3884B1F89126200609A3F /* lockrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF3884A1F89126200609A3F /* lockrTests.swift */; };
 		1DF388561F89126200609A3F /* lockrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF388551F89126200609A3F /* lockrUITests.swift */; };
+		3024A8FD55FDA82FEA85B3E9 /* Pods_lockrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED6739310D90A9CC3FA228D /* Pods_lockrTests.framework */; };
+		648BC6CA3D96995E93BA5855 /* Pods_lockr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E857AA68F6D3166C858BBC /* Pods_lockr.framework */; };
+		CE56AC29CC1561C63D92698A /* Pods_lockrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE95A966D0B433A4CF16A6C /* Pods_lockrUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		1DF388511F89126200609A3F /* lockrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lockrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF388551F89126200609A3F /* lockrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lockrUITests.swift; sourceTree = "<group>"; };
 		1DF388571F89126200609A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29422504D42CFDFBD03E0F40 /* Pods-lockrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lockrUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lockrUITests/Pods-lockrUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3ED6739310D90A9CC3FA228D /* Pods_lockrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lockrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E857AA68F6D3166C858BBC /* Pods_lockr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lockr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC5801845C8254D4C13FE09 /* Pods-lockrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lockrTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lockrTests/Pods-lockrTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A72C8CC2F0888ABD10051A5 /* Pods-lockr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lockr.release.xcconfig"; path = "Pods/Target Support Files/Pods-lockr/Pods-lockr.release.xcconfig"; sourceTree = "<group>"; };
+		B123B6DFF78278C91235AF63 /* Pods-lockrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lockrTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lockrTests/Pods-lockrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9AC97CFA87D45392247D7FA /* Pods-lockr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lockr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lockr/Pods-lockr.debug.xcconfig"; sourceTree = "<group>"; };
+		E620918C1AF034B8A61F4575 /* Pods-lockrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lockrUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lockrUITests/Pods-lockrUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FDE95A966D0B433A4CF16A6C /* Pods_lockrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lockrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				648BC6CA3D96995E93BA5855 /* Pods_lockr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3024A8FD55FDA82FEA85B3E9 /* Pods_lockrTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE56AC29CC1561C63D92698A /* Pods_lockrUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				1DF388491F89126200609A3F /* lockrTests */,
 				1DF388541F89126200609A3F /* lockrUITests */,
 				1DF388301F89126200609A3F /* Products */,
+				B4AF62F9EF3D15BC377A16C7 /* Pods */,
+				85CADB833B2682EA34B4CBCF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = lockrUITests;
 			sourceTree = "<group>";
 		};
+		85CADB833B2682EA34B4CBCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56E857AA68F6D3166C858BBC /* Pods_lockr.framework */,
+				3ED6739310D90A9CC3FA228D /* Pods_lockrTests.framework */,
+				FDE95A966D0B433A4CF16A6C /* Pods_lockrUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4AF62F9EF3D15BC377A16C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9AC97CFA87D45392247D7FA /* Pods-lockr.debug.xcconfig */,
+				8A72C8CC2F0888ABD10051A5 /* Pods-lockr.release.xcconfig */,
+				B123B6DFF78278C91235AF63 /* Pods-lockrTests.debug.xcconfig */,
+				6CC5801845C8254D4C13FE09 /* Pods-lockrTests.release.xcconfig */,
+				29422504D42CFDFBD03E0F40 /* Pods-lockrUITests.debug.xcconfig */,
+				E620918C1AF034B8A61F4575 /* Pods-lockrUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DF3885A1F89126200609A3F /* Build configuration list for PBXNativeTarget "lockr" */;
 			buildPhases = (
+				D990308EA2EE99CF49B133F8 /* [CP] Check Pods Manifest.lock */,
 				1DF3882B1F89126200609A3F /* Sources */,
 				1DF3882C1F89126200609A3F /* Frameworks */,
 				1DF3882D1F89126200609A3F /* Resources */,
+				989891FFA07B6BB4AC8972BD /* [CP] Embed Pods Frameworks */,
+				50DD7C1B01082F19A568B27D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DF3885D1F89126200609A3F /* Build configuration list for PBXNativeTarget "lockrTests" */;
 			buildPhases = (
+				99A791D9380B136A0AC62EE9 /* [CP] Check Pods Manifest.lock */,
 				1DF388421F89126200609A3F /* Sources */,
 				1DF388431F89126200609A3F /* Frameworks */,
 				1DF388441F89126200609A3F /* Resources */,
+				DEE3DA4FBED54148C81E9DB8 /* [CP] Embed Pods Frameworks */,
+				0042650F6E46CD1A1B25FF4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DF388601F89126200609A3F /* Build configuration list for PBXNativeTarget "lockrUITests" */;
 			buildPhases = (
+				0654EE595F24F342B97C83EE /* [CP] Check Pods Manifest.lock */,
 				1DF3884D1F89126200609A3F /* Sources */,
 				1DF3884E1F89126200609A3F /* Frameworks */,
 				1DF3884F1F89126200609A3F /* Resources */,
+				8B286A96870C82F43710D1F0 /* [CP] Embed Pods Frameworks */,
+				D62859989EAE591360BB05D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0042650F6E46CD1A1B25FF4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lockrTests/Pods-lockrTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0654EE595F24F342B97C83EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lockrUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50DD7C1B01082F19A568B27D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lockr/Pods-lockr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B286A96870C82F43710D1F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lockrUITests/Pods-lockrUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		989891FFA07B6BB4AC8972BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lockr/Pods-lockr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99A791D9380B136A0AC62EE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lockrTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D62859989EAE591360BB05D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lockrUITests/Pods-lockrUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D990308EA2EE99CF49B133F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lockr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEE3DA4FBED54148C81E9DB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lockrTests/Pods-lockrTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1DF3882B1F89126200609A3F /* Sources */ = {
@@ -416,6 +612,7 @@
 		};
 		1DF3885B1F89126200609A3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9AC97CFA87D45392247D7FA /* Pods-lockr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = lockr/Info.plist;
@@ -428,6 +625,7 @@
 		};
 		1DF3885C1F89126200609A3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A72C8CC2F0888ABD10051A5 /* Pods-lockr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = lockr/Info.plist;
@@ -440,6 +638,7 @@
 		};
 		1DF3885E1F89126200609A3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B123B6DFF78278C91235AF63 /* Pods-lockrTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +653,7 @@
 		};
 		1DF3885F1F89126200609A3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC5801845C8254D4C13FE09 /* Pods-lockrTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +668,7 @@
 		};
 		1DF388611F89126200609A3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29422504D42CFDFBD03E0F40 /* Pods-lockrUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = lockrUITests/Info.plist;
@@ -481,6 +682,7 @@
 		};
 		1DF388621F89126200609A3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E620918C1AF034B8A61F4575 /* Pods-lockrUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = lockrUITests/Info.plist;
